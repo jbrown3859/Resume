@@ -1,0 +1,169 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Experience",
+    "education": "Eduaction",
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "Awards"
+  },
+  "basics": {
+    "name": "Joseph Brown",
+    "email": "jbrown3859@gmail.com",
+    "website": "jbrown3859.github.io",
+    "location": {
+      "address": "Los Angeles, CA"
+    },
+    "phone": "(818) 306-7623"
+  },
+  "education": [
+    {
+      "institution": "Crescenta Valley HS",
+      "studyType": "HS Diploma",
+      "startDate": "August 2015",
+      "endDate": "June 2019",
+      "location": "La Crescenta, CA",
+      "gpa": "4.0"
+    },
+    {
+      "institution": "University of California, Riverside",
+      "location": "Riverside, CA",
+      "studyType": "BS",
+      "area": "Electrical Engineering",
+      "startDate": "September 2019",
+      "endDate": "Present"
+    }
+  ],
+  "work": [
+    {
+      "company": "ParkPlus CA",
+      "location": "Sun Valley, CA",
+      "position": "CAD Intern",
+      "website": "",
+      "endDate": "August 2017",
+      "highlights": [
+        "Used AutoCAD to maximize space in automated and high density parking solutions for clients."
+      ],
+      "startDate": "June 2017"
+    },
+    {
+      "highlights": [
+        "Worked with other developers on a geographic information system for organizing and delivering information pertaining to a user's local agencies and community organizations."
+      ],
+      "company": "SimpleLayers, Inc",
+      "position": "Assistant Developer",
+      "location": "La Crescenta, CA",
+      "startDate": "June 2018",
+      "endDate": "August 2018"
+    },
+    {
+      "highlights": [
+        "Delivered services as the web developer, designer, application specialist and webmaster, acting as project manager for the transition. Conceptualized, planned and executed designs for a wide range of website properties using Bootstrap 4.3, HTML, and CSS."
+      ],
+      "company": "SoCalShredz",
+      "position": "Web Designer",
+      "location": "La Canada Flintridge, CA",
+      "startDate": "September 2018",
+      "endDate": "August 2019"
+    },
+    {
+      "highlights": [
+        ""
+      ],
+      "company": "ARKS: Self Driving Warehouse Carts",
+      "position": "Mechatronics Engineering Intern",
+      "location": "Riverside, CA",
+      "startDate": "September 2019",
+      "endDate": "Present"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Object Oriented Programming",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Python",
+        "C#",
+        "C++"
+      ]
+    },
+    {
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ],
+      "name": "Web Development"
+    },
+    {
+      "keywords": [
+        "MIG/TIG/Arc/Oxyacetylene Welding",
+        "Aluminum, Steel work",
+        "CAD"
+      ],
+      "name": "Fabrication"
+    },
+    {
+      "keywords": [
+        null
+      ]
+    },
+    {
+      "keywords": [
+        "Years in leadership in the Boy Scouts and my HS Robotics team"
+      ],
+      "name": "Leadership"
+    },
+    {
+      "keywords": [
+        ""
+      ],
+      "name": "French"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Team Data Software",
+      "url": "https://github.com/jbrown3859/AutoScout https://github.com/jbrown3859/Attendance-Software",
+      "keywords": [
+        "Java"
+      ],
+      "description": "Developed software to track attendance of 100+ robotics team members, and to analyze tournament scores and organize data on other FRC teams"
+    },
+    {
+      "keywords": [
+        "Power and Signal Management, C++, Arduino"
+      ],
+      "name": "Electric Longboard",
+      "description": "Designed and refined a budget kit for retrofitting skateboards with electric drive",
+      "url": "https://github.com/jbrown3859/Electric-Longboard-Conversion"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Eagle Scout",
+      "date": "2018",
+      "summary": ""
+    },
+    {
+      "title": "Arshak Award",
+      "date": "June 2019",
+      "awarder": "FRC 589"
+    },
+    {
+      "title": "Le Grand Concours",
+      "date": "April 2018",
+      "summary": "Competed and placed in the 30th percentile in a nationwide French literacy competition"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
