@@ -9,10 +9,10 @@
   },
   "basics": {
     "name": "Joseph Brown",
-    "email": "jbrown3859@gmail.com",
+    "email": "jbrow123@ucr.edu",
     "website": "jbrown3859.github.io",
     "location": {
-      "address": "Los Angeles, CA"
+      "address": "Riverside, CA"
     },
     "phone": "(818) 306-7623"
   },
@@ -31,30 +31,19 @@
       "studyType": "BS",
       "area": "Electrical Engineering",
       "startDate": "September 2019",
-      "endDate": "Present"
+      "endDate": "June 2023"
     }
   ],
   "work": [
     {
-      "company": "ParkPlus CA",
-      "location": "Sun Valley, CA",
-      "position": "CAD Intern",
-      "website": "",
-      "endDate": "August 2017",
       "highlights": [
-        "Used AutoCAD to maximize space in automated and high density parking solutions for clients."
+        null
       ],
-      "startDate": "June 2017"
-    },
-    {
-      "highlights": [
-        "Worked with other developers on a geographic information system for organizing and delivering information pertaining to a user's local agencies and community organizations."
-      ],
-      "company": "SimpleLayers, Inc",
-      "position": "Assistant Developer",
-      "location": "La Crescenta, CA",
-      "startDate": "June 2018",
-      "endDate": "August 2018"
+      "company": "ARKS: Self Driving Warehouse Carts",
+      "position": "Mechatronics Engineering Intern",
+      "location": "Riverside, CA",
+      "startDate": "September 2019",
+      "endDate": "Present"
     },
     {
       "highlights": [
@@ -68,13 +57,24 @@
     },
     {
       "highlights": [
-        ""
+        "Worked with other developers on a geographic information system for organizing and delivering information pertaining to a user's local agencies and community organizations."
       ],
-      "company": "ARKS: Self Driving Warehouse Carts",
-      "position": "Mechatronics Engineering Intern",
-      "location": "Riverside, CA",
-      "startDate": "September 2019",
-      "endDate": "Present"
+      "company": "SimpleLayers, Inc",
+      "position": "Assistant Developer",
+      "location": "La Crescenta, CA",
+      "startDate": "June 2018",
+      "endDate": "August 2018"
+    },
+    {
+      "company": "ParkPlus CA",
+      "location": "Sun Valley, CA",
+      "position": "CAD Intern",
+      "website": "",
+      "endDate": "August 2017",
+      "highlights": [
+        "Used AutoCAD to maximize space in automated and high density parking solutions for clients."
+      ],
+      "startDate": "June 2017"
     }
   ],
   "skills": [
@@ -106,8 +106,11 @@
     },
     {
       "keywords": [
-        null
-      ]
+        "Ubuntu 18 Desktop and Server",
+        "Kali",
+        "Windows 10"
+      ],
+      "name": "Operating Systems"
     },
     {
       "keywords": [
@@ -117,7 +120,7 @@
     },
     {
       "keywords": [
-        ""
+        "Limited Working Proficiency"
       ],
       "name": "French"
     }
@@ -127,16 +130,16 @@
       "name": "Team Data Software",
       "url": "https://github.com/jbrown3859/AutoScout https://github.com/jbrown3859/Attendance-Software",
       "keywords": [
-        "Java"
+        "Java, Apache POI"
       ],
       "description": "Developed software to track attendance of 100+ robotics team members, and to analyze tournament scores and organize data on other FRC teams"
     },
     {
       "keywords": [
-        "Power and Signal Management, C++, Arduino"
+        "Power and Signal Management, C++, Arduino, BLE, Android Studio"
       ],
       "name": "Electric Longboard",
-      "description": "Designed and refined a budget kit for retrofitting skateboards with electric drive",
+      "description": "Designed and refined a budget kit for retrofitting skateboards with electric drive and wireless control. Android app for Bluetooth throttle in development",
       "url": "https://github.com/jbrown3859/Electric-Longboard-Conversion"
     }
   ],
