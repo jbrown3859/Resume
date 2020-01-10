@@ -9,7 +9,7 @@
   },
   "basics": {
     "name": "Joseph Brown",
-    "email": "jbrow123@ucr.edu",
+    "email": "brown.joseph.ee@gmail.com",
     "website": "jbrown3859.github.io",
     "location": {
       "address": "Riverside, CA"
@@ -18,20 +18,21 @@
   },
   "education": [
     {
+      "institution": "University of California, Riverside",
+      "location": "Riverside, CA",
+      "studyType": "BS",
+      "area": "Electrical Engineering",
+      "startDate": "September 2019",
+      "endDate": "June 2023",
+      "gpa": "3.8"
+    },
+    {
       "institution": "Crescenta Valley HS",
       "studyType": "HS Diploma",
       "startDate": "August 2015",
       "endDate": "June 2019",
       "location": "La Crescenta, CA",
       "gpa": "4.0"
-    },
-    {
-      "institution": "University of California, Riverside",
-      "location": "Riverside, CA",
-      "studyType": "BS",
-      "area": "Electrical Engineering",
-      "startDate": "September 2019",
-      "endDate": "June 2023"
     }
   ],
   "work": [
@@ -82,39 +83,36 @@
       "name": "Object Oriented Programming",
       "level": "",
       "keywords": [
-        "Java",
-        "Python",
-        "C#",
-        "C++"
+        "Java (3 years)",
+        "Python (1 year)",
+        "C# (1 year)",
+        "C++ (2 years)"
       ]
     },
     {
       "keywords": [
-        "HTML",
-        "CSS",
-        "Bootstrap"
+        "Limited frontend and backend experience"
       ],
       "name": "Web Development"
     },
     {
       "keywords": [
-        "MIG/TIG/Arc/Oxyacetylene Welding",
+        "Welding",
         "Aluminum, Steel work",
-        "CAD"
+        "AutoDesk Inventor, Solidworks"
       ],
       "name": "Fabrication"
     },
     {
       "keywords": [
-        "Ubuntu 18 Desktop and Server",
-        "Kali",
+        "*nix file systems",
         "Windows 10"
       ],
       "name": "Operating Systems"
     },
     {
       "keywords": [
-        "Years in leadership in the Boy Scouts and my HS Robotics team"
+        "Years in leadership in the Boy Scouts and FRC 589"
       ],
       "name": "Leadership"
     },
@@ -139,8 +137,15 @@
         "Power and Signal Management, C++, Arduino, BLE, Android Studio"
       ],
       "name": "Electric Longboard",
-      "description": "Designed and refined a budget kit for retrofitting skateboards with electric drive and wireless control. Android app for Bluetooth throttle in development",
+      "description": "Designed and refined a budget kit for retrofitting skateboards with electric drive and wireless control. Android app for Bluetooth throttle control in development",
       "url": "https://github.com/jbrown3859/Electric-Longboard-Conversion"
+    },
+    {
+      "keywords": [
+        "CAD, Java, Metal Work, Welding"
+      ],
+      "name": "FRC 589",
+      "description": "Worked alongside other team members to design and build a competition robot in 6 weeks."
     }
   ],
   "awards": [
