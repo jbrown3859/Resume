@@ -1,0 +1,157 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Joseph Brown}}\\
+	Riverside, CA $\cdot$ brown.joseph.ee@gmail.com $\cdot$ (818) 306-7623 $\cdot$ jbrown3859.github.io\\
+\end{center}
+
+%==== Education ====%
+\header{Eduaction}
+\textbf{University of California, Riverside}\hfill Riverside, CA\\
+BS Electrical Engineering \textit{GPA: 3.8} \hfill September 2019 - June 2023\\
+\vspace{2mm}
+\textbf{Crescenta Valley HS}\hfill La Crescenta, CA\\
+HS Diploma \textit{GPA: 4.0} \hfill August 2015 - June 2019\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{ARKS: Self Driving Warehouse Carts} \hfill Riverside, CA\\
+\textit{Mechatronics Engineering Intern} \hfill September 2019 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Working to develop and refine warehouse automation technologies.
+\end{itemize}
+\textbf{SoCalShredz} \hfill La Canada Flintridge, CA\\
+\textit{Web Designer} \hfill September 2018 - August 2019\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Delivered services as the web developer, designer, application specialist and webmaster, acting as project manager for the transition. Conceptualized, planned and executed designs for a wide range of website properties using Bootstrap 4.3, HTML, and CSS.
+\end{itemize}
+\textbf{SimpleLayers, Inc} \hfill La Crescenta, CA\\
+\textit{Assistant Developer} \hfill June 2018 - August 2018\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Worked with other developers on a geographic information system for organizing and delivering information pertaining to a user\textquotesingle{}s local agencies and community organizations.
+\end{itemize}
+\textbf{ParkPlus CA} \hfill Sun Valley, CA\\
+\textit{CAD Intern} \hfill June 2017 - August 2017\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Used AutoCAD to maximize space in automated and high density parking solutions for clients.
+\end{itemize}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Object Oriented Programming: & Java (3 years), Python (1 year), C\# (1 year), C++ (2 years) \\
+	Web Development:             & Limited frontend and backend experience                      \\
+	Fabrication:                 & Welding, Aluminum, Steel work, AutoDesk Inventor, Solidworks \\
+	Operating Systems:           & *nix file systems, Windows 10                                \\
+	Leadership:                  & Years in leadership in the Boy Scouts and FRC 589            \\
+	French:                      & Limited Working Proficiency                                  \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Projects}
+{\textbf{Team Data Software}} {\sl Java, Apache POI} \hfill /jbrown3859/AutoScout\\
+\begin{itemize} \itemsep 1pt
+	\item Developed software to track attendance of 100+ robotics team members, and to analyze tournament scores and organize data on other FRC teams\\
+\end{itemize}
+\vspace*{2mm}
+{\textbf{Electric Longboard}} {\sl Power and Signal Systems, C++} \hfill /jbrown3859/Electric-Longboard-Conversion\\
+\begin{itemize} \itemsep 1pt
+	\item Designed and refined a budget kit for retrofitting skateboards with electric drive and wireless control. Android app for Bluetooth throttle control in development\\
+\end{itemize}
+\vspace*{2mm}
+{\textbf{FRC 589}} {\sl CAD, Java, Metal Work, Welding} \\
+\begin{itemize} \itemsep 1pt
+	\item Worked alongside other team members to design and build a competition robot in 6 weeks.\\
+\end{itemize}
+\vspace*{2mm}
+
+\header{Awards}
+\textbf{Eagle Scout} \hfill Troop 319\\
+\hfill 2018\\
+\vspace*{2mm}
+\textbf{Arshak Award} \hfill FRC 589\\
+\hfill June 2019\\
+\vspace*{2mm}
+\textbf{Le Grand Concours} \hfill CVHS\\
+Competed and placed in the 30th percentile in a nationwide French literacy competition \hfill April 2018\\
+\vspace*{2mm}
+
+\ 
+\end{document}
