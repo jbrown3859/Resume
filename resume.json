@@ -126,7 +126,7 @@
   "projects": [
     {
       "name": "Team Data Software",
-      "url": "https://github.com/jbrown3859/AutoScout https://github.com/jbrown3859/Attendance-Software",
+      "url": "github.com/jbrown3859/AutoScout https://github.com/jbrown3859/Attendance-Software",
       "keywords": [
         "Java, Apache POI"
       ],
@@ -138,7 +138,7 @@
       ],
       "name": "Electric Longboard",
       "description": "Designed and refined a budget kit for retrofitting skateboards with electric drive and wireless control. Android app for Bluetooth throttle control in development",
-      "url": "https://github.com/jbrown3859/Electric-Longboard-Conversion"
+      "url": "github.com/jbrown3859/Electric-Longboard-Conversion"
     },
     {
       "keywords": [
